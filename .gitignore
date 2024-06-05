@@ -130,6 +130,23 @@ ENV/
 env.bak/
 venv.bak/
 
+# Google Cloud API credentials
+credentials.json
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Temporary files
+*.bak
+*.swp
+
+# Log files
+*.log
+
+# Configuration files
+config.ini
+
 # Spyder project settings
 .spyderproject
 .spyproject
