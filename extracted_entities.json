@@ -1,0 +1,1060 @@
+[
+  {
+    "type": "invoice_id",
+    "text": "123100401",
+    "confidence": 0.9722906351089478,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "total_tax_amount",
+    "text": "72,41",
+    "confidence": 0.958581268787384,
+    "normalized_value": "72.41",
+    "properties": []
+  },
+  {
+    "type": "invoice_date",
+    "text": "1. M\u00e4rz 2024",
+    "confidence": 0.841213583946228,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "supplier_tax_id",
+    "text": "DE199378386",
+    "confidence": 0.8284956216812134,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "total_amount",
+    "text": "453,53",
+    "confidence": 0.8270311951637268,
+    "normalized_value": "453.53",
+    "properties": []
+  },
+  {
+    "type": "supplier_name",
+    "text": "CPB Software (Germany) GmbH",
+    "confidence": 0.8179110884666443,
+    "normalized_value": "CPB Software (Germany) GmbH",
+    "properties": []
+  },
+  {
+    "type": "supplier_email",
+    "text": "germany@cpb-software.com",
+    "confidence": 0.6045933365821838,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "supplier_phone",
+    "text": "+49 9371 9786-0",
+    "confidence": 0.6018097996711731,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "currency",
+    "text": "\u20ac",
+    "confidence": 0.5529648661613464,
+    "normalized_value": "EUR",
+    "properties": []
+  },
+  {
+    "type": "supplier_website",
+    "text": "www.cpb-software.com",
+    "confidence": 0.5472972393035889,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "supplier_iban",
+    "text": "DE29 1234 5678 9012 3456 78",
+    "confidence": 0.541665256023407,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "supplier_address",
+    "text": "Im Bruch 3, 63897 Miltenberg",
+    "confidence": 0.47818121314048767,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "invoice_type",
+    "text": "",
+    "confidence": 0.4367155134677887,
+    "normalized_value": "invoice_statement",
+    "properties": []
+  },
+  {
+    "type": "payment_terms",
+    "text": "Terms of Payment: Immediate payment without discount. Any bank charges must be paid by the invoice recipient.",
+    "confidence": 0.19234111905097961,
+    "normalized_value": null,
+    "properties": []
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Basic Fee wmView",
+        "confidence": 0.8093087673187256,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "130,00",
+        "confidence": 0.14612190425395966,
+        "normalized_value": "130"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "1",
+        "confidence": 0.5627524256706238,
+        "normalized_value": "1"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "130,00",
+        "confidence": 0.8900098204612732,
+        "normalized_value": "130"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Basis fee for additional user accounts",
+        "confidence": 0.7980086803436279,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "10,00",
+        "confidence": 0.12290387600660324,
+        "normalized_value": "10"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.6125437021255493,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.9109211564064026,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Basic Fee wmPos",
+        "confidence": 0.7505607604980469,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "50,00",
+        "confidence": 0.14486078917980194,
+        "normalized_value": "50"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.6456090211868286,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8921029567718506,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Basic Fee wm Guide",
+        "confidence": 0.7876520156860352,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "1.000,00",
+        "confidence": 0.20926842093467712,
+        "normalized_value": "1000"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.6593008041381836,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.9094994068145752,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Change of user accounts",
+        "confidence": 0.7687721252441406,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "10,00",
+        "confidence": 0.22472843527793884,
+        "normalized_value": "10"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.5812820792198181,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.9001789093017578,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T1",
+        "confidence": 0.7038744688034058,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,58",
+        "confidence": 0.1948852688074112,
+        "normalized_value": "0.58"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "14",
+        "confidence": 0.7268162965774536,
+        "normalized_value": "14"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "8,12",
+        "confidence": 0.9054759740829468,
+        "normalized_value": "8.12"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T2",
+        "confidence": 0.607986569404602,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,70",
+        "confidence": 0.1878012716770172,
+        "normalized_value": "0.7"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.6160049438476562,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8979712724685669,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T3",
+        "confidence": 0.6312645077705383,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "1,50",
+        "confidence": 0.2947317063808441,
+        "normalized_value": "1.5"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "162",
+        "confidence": 0.6861383318901062,
+        "normalized_value": "162"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "243,00",
+        "confidence": 0.8965121507644653,
+        "normalized_value": "243"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T4",
+        "confidence": 0.6180056929588318,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,50",
+        "confidence": 0.35261034965515137,
+        "normalized_value": "0.5"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.6112847328186035,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8965957760810852,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T5",
+        "confidence": 0.6257347464561462,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,80",
+        "confidence": 0.31004148721694946,
+        "normalized_value": "0.8"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.5533444881439209,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8921875953674316,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee T6",
+        "confidence": 0.6215913891792297,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "1,80",
+        "confidence": 0.27895841002464294,
+        "normalized_value": "1.8"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.5585830211639404,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8999869227409363,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G1",
+        "confidence": 0.625632107257843,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,30",
+        "confidence": 0.2780691981315613,
+        "normalized_value": "0.3"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.5427551865577698,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8965367674827576,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G2",
+        "confidence": 0.6015371680259705,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,30",
+        "confidence": 0.3279561400413513,
+        "normalized_value": "0.3"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.46830251812934875,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.88701331615448,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G3",
+        "confidence": 0.6096420884132385,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,40",
+        "confidence": 0.2371453493833542,
+        "normalized_value": "0.4"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.49021676182746887,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8773531913757324,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G4",
+        "confidence": 0.6387516856193542,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,40",
+        "confidence": 0.28251218795776367,
+        "normalized_value": "0.4"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.4514067471027374,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.883172333240509,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G5",
+        "confidence": 0.6312487125396729,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,30",
+        "confidence": 0.2926720380783081,
+        "normalized_value": "0.3"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.42213836312294006,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8736570477485657,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "Transaction Fee G6",
+        "confidence": 0.5862076878547668,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,30",
+        "confidence": 0.2998760938644409,
+        "normalized_value": "0.3"
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.3487955927848816,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "0,00",
+        "confidence": 0.8411058783531189,
+        "normalized_value": "0"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "user-account-1",
+        "confidence": 0.4004240036010742,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "99",
+        "confidence": 0.15600378811359406,
+        "normalized_value": "99"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "154,30",
+        "confidence": 0.8522622585296631,
+        "normalized_value": "154.3"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "user-account-2",
+        "confidence": 0.36196574568748474,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "63",
+        "confidence": 0.1743904948234558,
+        "normalized_value": "63"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "96,82",
+        "confidence": 0.8717007040977478,
+        "normalized_value": "96.82"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "*Not specified*",
+        "confidence": 0.1503279060125351,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "4",
+        "confidence": 0.24864791333675385,
+        "normalized_value": "4"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "15,82",
+        "confidence": 0.8872500061988831,
+        "normalized_value": "15.82"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "AZR/31/27439",
+        "confidence": 0.0687648132443428,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "12",
+        "confidence": 0.3825387954711914,
+        "normalized_value": "12"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "18,00",
+        "confidence": 0.9120819568634033,
+        "normalized_value": "18"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "CCL/3715",
+        "confidence": 0.3376811146736145,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "0",
+        "confidence": 0.2076549232006073,
+        "normalized_value": "0"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "6,00",
+        "confidence": 0.8987510800361633,
+        "normalized_value": "6"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "CRS/28432",
+        "confidence": 0.3326767683029175,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "36",
+        "confidence": 0.43130967020988464,
+        "normalized_value": "36"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "56,90",
+        "confidence": 0.9008190035820007,
+        "normalized_value": "56.9"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "Cs/52113",
+        "confidence": 0.40986916422843933,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "19",
+        "confidence": 0.3546188175678253,
+        "normalized_value": "19"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "28,50",
+        "confidence": 0.9079433679580688,
+        "normalized_value": "28.5"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "GS 32090",
+        "confidence": 0.38910603523254395,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "1",
+        "confidence": 0.21199734508991241,
+        "normalized_value": "1"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "11,08",
+        "confidence": 0.9141055941581726,
+        "normalized_value": "11.08"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "Kpi/22695",
+        "confidence": 0.22394897043704987,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "2",
+        "confidence": 0.20672044157981873,
+        "normalized_value": "2"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "10,16",
+        "confidence": 0.8998112678527832,
+        "normalized_value": "10.16"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/description",
+        "text": "PG 7772",
+        "confidence": 0.1396346241235733,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "11",
+        "confidence": 0.45754075050354004,
+        "normalized_value": "11"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "16,50",
+        "confidence": 0.9071852564811707,
+        "normalized_value": "16.5"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "Rjn/11138",
+        "confidence": 0.31468355655670166,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "15",
+        "confidence": 0.49454888701438904,
+        "normalized_value": "15"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "22,50",
+        "confidence": 0.8810665607452393,
+        "normalized_value": "22.5"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "SF-M 596/99-08",
+        "confidence": 0.2759031653404236,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "5",
+        "confidence": 0.20545317232608795,
+        "normalized_value": "5"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "7,50",
+        "confidence": 0.8954479098320007,
+        "normalized_value": "7.5"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "Ttrb/17885",
+        "confidence": 0.38690727949142456,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "23",
+        "confidence": 0.3331681787967682,
+        "normalized_value": "23"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "35,08",
+        "confidence": 0.9171745181083679,
+        "normalized_value": "35.08"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "WPN:24791",
+        "confidence": 0.33266618847846985,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "1",
+        "confidence": 0.28852444887161255,
+        "normalized_value": "1"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "6,58",
+        "confidence": 0.906798243522644,
+        "normalized_value": "6.58"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/product_code",
+        "text": "Wwt/15658",
+        "confidence": 0.4261748492717743,
+        "normalized_value": null
+      },
+      {
+        "type": "line_item/quantity",
+        "text": "11",
+        "confidence": 0.28059300780296326,
+        "normalized_value": "11"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "16,50",
+        "confidence": 0.892042875289917,
+        "normalized_value": "16.5"
+      }
+    ]
+  },
+  {
+    "type": "line_item",
+    "text": "",
+    "confidence": 1.0,
+    "normalized_value": null,
+    "properties": [
+      {
+        "type": "line_item/quantity",
+        "text": "0,58",
+        "confidence": 0.7129291892051697,
+        "normalized_value": "0.58"
+      },
+      {
+        "type": "line_item/unit_price",
+        "text": "0,70",
+        "confidence": 0.4872201979160309,
+        "normalized_value": "0.7"
+      },
+      {
+        "type": "line_item/amount",
+        "text": "1,80",
+        "confidence": 0.3037768006324768,
+        "normalized_value": "1.8"
+      }
+    ]
+  }
+]
