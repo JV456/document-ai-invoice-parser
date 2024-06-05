@@ -35,7 +35,53 @@
    ```sh
    export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/credentials.json"
 
+## Usage Example
+
+### Integrating with a Database
+
+You can easily integrate the extracted invoice data into a database for further analysis or reporting. Here's an example of how to insert the JSON data into a PostgreSQL database using Python:
+   ```python
+   import psycopg2
+
+   # Connect to the database
+   conn = psycopg2.connect(database="your_database", user="your_username", password="your_password", host="your_host", port="your_port")
+   cur = conn.cursor()
+
+   # Insert JSON data into the database
+   cur.execute("INSERT INTO invoices (data) VALUES (%s)", (json_data,))
+   conn.commit()
+
+   # Close the connection
+   cur.close()
+   conn.close()
+ ```
+
+## Generating Report
+   You can use the extracted invoice data to generate custom reports or visualizations. Here's an example of how to generate a simple report using Python and          matplotlib:
+   ```python
+   import matplotlib.pyplot as plt
+
+   # Extract invoice totals
+   totals = [invoice['Totals']['Total'] for invoice in invoices]
+
+   # Generate a bar chart of total invoice amounts
+   plt.bar(range(len(totals)), totals)
+   plt.xlabel('Invoice')
+   plt.ylabel('Total Amount')
+   plt.title('Invoice Total Amounts')
+   plt.show()
+   ```
+
+## Roadmap
+
+Here are some potential future enhancements and features planned for `document-ai-invoice-parser`:
+
+- Add support for processing multiple invoices in batch mode.
+- Implement a web interface for uploading and processing PDF invoices.
+- Integrate with popular accounting or ERP systems for automatic data entry.
+
 ## Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Acknowledgements
