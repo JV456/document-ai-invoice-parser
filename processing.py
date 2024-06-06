@@ -3,13 +3,13 @@ from typing import Optional
 from google.api_core.client_options import ClientOptions
 from google.cloud import documentai
 
-project_id = "document-ai-425507"
+project_id = ""
 location = "us"  # Format is "us" or "eu"
-processor_id = "7df4cdb10cc9f03b"  # Create processor before running sample
+processor_id = ""  # Create processor before running sample
 processor_version = "rc"  # Refer to https://cloud.google.com/document-ai/docs/manage-processor-versions for more information
-file_path = "/home/jaivadula/sample-invoice.pdf"
-mime_type = "application/pdf"  # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
-output_json_path = "/home/jaivadula/extracted_entities.json"
+file_path = ""
+mime_type = ""  # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
+output_json_path = ""
 
 
 def process_document_entity_extraction_sample(
