@@ -2,12 +2,12 @@ from google.api_core.client_options import ClientOptions
 from google.cloud import documentai
 
 
-PROJECT_ID = "document-ai-425507"
+PROJECT_ID = ""
 LOCATION = "us" 
-PROCESSOR_ID = "7df4cdb10cc9f03b"  
+PROCESSOR_ID = ""  
 
 # The local file in your current working directory
-FILE_PATH = "/home/jaivadula/sample-invoice.pdf"
+FILE_PATH = ""
 # Refer to https://cloud.google.com/document-ai/docs/file-types
 # for supported file types
 MIME_TYPE = "application/pdf"
