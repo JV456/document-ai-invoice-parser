@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Extracted Entities</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+    <style>
+        .upload-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            background-color: #007bff;
+            color: white;
+        }
+        .entities-container {
+            margin-bottom: 100px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+        <a class="navbar-brand" href="#">Invoice Processor</a>
+    </nav>
+    <div class="container mt-5 entities-container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-gradient-dark text-white">
+                        <h1 class="upload-text text-center">Extracted Entities</h1>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            {% for entity in entities %}
+                            <li class="list-group-item">
+                                <strong>{{ entity.type }}</strong>: {{ entity.text }} (Confidence: {{ entity.confidence }})
+                                {% if entity.normalized_value %}
+                                <br><strong>Normalized Value:</strong> {{ entity.normalized_value }}
+                                {% endif %}
+                                {% if entity.properties %}
+                                <ul class="list-group mt-2">
+                                    {% for prop in entity.properties %}
+                                    <li class="list-group-item">
+                                        <strong>{{ prop.type }}</strong>: {{ prop.text }} (Confidence: {{ prop.confidence }})
+                                        {% if prop.normalized_value %}
+                                        <br><strong>Normalized Value:</strong> {{ prop.normalized_value }}
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="btn btn-light btn-lg upload-button">Upload Another File</a>
+    <footer class="footer mt-5 py-3 bg-dark text-white-50">
+        <div class="container text-center">
+            <span>© 2024 Invoice Processor. All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
